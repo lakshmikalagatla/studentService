@@ -1,0 +1,9 @@
+com\student\StudentManagment\DTOs\TransactionRequest.class
+com\student\StudentManagment\Services\StudentService.class
+com\student\StudentManagment\DTOs\StudentDTO.class
+com\student\StudentManagment\Services\StudentServiceImpl.class
+com\student\StudentManagment\Beans\Student.class
+com\student\StudentManagment\StudentManagmentApplication.class
+com\student\StudentManagment\DTOs\TransactionResponse.class
+com\student\StudentManagment\Repository\StudentRespository.class
+com\student\StudentManagment\Controllers\StudentRestController.class
