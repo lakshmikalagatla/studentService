@@ -5,9 +5,9 @@ spring:
     hibernate:
       ddl-auto: create
   datasource:
-    url: jdbc:mysql://localhost:3306/studentdb
+    url: jdbc:mysql://mysql:3306/SchoolDB
     username: TestUser
-    password: TestUser@9599
+    password: TestUser@123
   application:
     name: STUD-SERVICE
 
@@ -16,7 +16,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8761/eureka/
-
+      defaultZone: http://myimage:8761/eureka/
   instance:
-    hostname: localhost
+    hostname: myimage
